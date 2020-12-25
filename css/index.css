@@ -51,9 +51,27 @@ nav.navigation {
     height: 46px;
     margin-top: 0.9px;
     border-radius: 6px;
-    background-color: lightblue;
+    background-color: #0a3d62;
     margin-left: 170px;
     text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.log-in{
+    width: 100px;
+    /* border: 1px solid black; */
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+div.log-up{
+    width: 100px;
+    /* border: 1px solid red; */
+    background-color: #40739e;
+    padding: 10px;
+    border-radius: 6px;
 }
 
 .navigation ul {
