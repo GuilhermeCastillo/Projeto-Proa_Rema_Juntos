@@ -58,7 +58,7 @@ nav.navigation {
     flex-flow: row nowrap;
 }
 
-div.log-in{
+div.log-in {
     width: 100px;
     /* border: 1px solid black; */
     background-color: lightblue;
@@ -66,7 +66,7 @@ div.log-in{
     border-radius: 6px;
 }
 
-div.log-up{
+div.log-up {
     width: 100px;
     /* border: 1px solid red; */
     background-color: #40739e;
@@ -98,38 +98,38 @@ aside.menu-left {
     /* text-align: center; */
 }
 
-aside.menu-left>nav.menu-navegacao{
+aside.menu-left>nav.menu-navegacao {
     width: 165px;
-    /* border: 1px solid red; */
+    /* border: 1px solid red; 
     /* text-align: center; */
 }
 
-aside.menu-left>nav.menu-navegacao ul{
+aside.menu-left>nav.menu-navegacao ul {
     list-style: none;
     margin-top: 20px;
 }
 
-aside.menu-left>nav.menu-navegacao li{
+aside.menu-left>nav.menu-navegacao li {
     margin: 20px;
     /* border: 1px solid black; */
     width: 165px;
 }
 
-aside.menu-left>nav.menu-navegacao ul li a{
+aside.menu-left>nav.menu-navegacao ul li a {
     text-decoration: none;
     color: #2f3640;
     /* background-color: #0a3d62;
     border-radius: 6px; */
 }
 
-aside.menu-left>nav.menu-navegacao ul li a:hover{
+aside.menu-left>nav.menu-navegacao ul li a:hover {
     /* background-color: #0a3d62; */
     color: seashell;
     text-decoration: underline;
 }
 
 
-aside.menu-left>nav.menu-navegacao ul li a:active{
+aside.menu-left>nav.menu-navegacao ul li a:active {
     background-color: #0a3d62;
     color: seashell;
     border-radius: 4px;
@@ -162,6 +162,38 @@ aside.menu-right {
     background-color: lightblue;
 }
 
+aside.menu-right>nav.menu-rewards {
+    width: 167px;
+    /* border: red 1px solid; */
+}
+
+aside.menu-right>nav.menu-rewards ul {
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+aside.menu-right>nav.menu-rewards ul li a {
+    text-decoration: none;
+    color: #2f3640;
+    /* background-color: #0a3d62;
+    border-radius: 6px; */
+}
+
+aside.menu-right>nav.menu-rewards ul li a:hover {
+    /* background-color: #0a3d62; */
+    color: seashell;
+    text-decoration: underline;
+}
+
+
+aside.menu-right>nav.menu-rewards ul li a:active {
+    background-color: #0a3d62;
+    color: seashell;
+    border-radius: 4px;
+}
+
+
 footer.rodape {
     width: 1280px;
     height: 100px;
@@ -171,11 +203,11 @@ footer.rodape {
     justify-content: space-between;
 }
 
-footer.rodape h4{
+footer.rodape h4 {
     color: #ffffff;
 }
 
-footer.rodape>div.about{
+footer.rodape>div.about {
     color: black;
     width: 350px;
     height: 100px;
@@ -183,7 +215,7 @@ footer.rodape>div.about{
     text-align: center;
 }
 
-footer.rodape>div.footer-imagem{
+footer.rodape>div.footer-imagem {
     width: 100px;
 }
 
@@ -196,7 +228,7 @@ footer.rodape>div.contact {
 
 footer.rodape>div.contact ul {
     list-style: none;
-    margin: 3px;
+    margin-top: 10px;
 }
 
 footer.rodape>div.contact a {
@@ -204,15 +236,15 @@ footer.rodape>div.contact a {
     color: black;
 }
 
-footer.rodape>div.contact a:hover{
+footer.rodape>div.contact a:hover {
     /* background-color: lightblue; */
     color: #ffffff;
     text-decoration: underline;
 }
 
-footer.rodape>div.contact a:active{
+footer.rodape>div.contact a:active {
     /* background-color: lightblue; */
-    background-color: #2f3640;
+    background-color: #182C61;
     border-radius: 4px;
     text-decoration: underline;
 }
