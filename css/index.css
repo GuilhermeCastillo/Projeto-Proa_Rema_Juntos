@@ -90,6 +90,12 @@ nav.navigation a:hover {
     text-decoration: underline;
 }
 
+nav.navigation a:active {
+    background-color: #0a3d62;
+    color: #f5f6fa;
+    text-decoration: underline;
+}
+
 
 aside.menu-left {
     width: 165px;
@@ -148,13 +154,26 @@ section.sessao-principal {
     width: 948px;
     height: 120px;
     background-color: #40739e;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 section.sessao-principal h1 {
     text-align: center;
     color: seashell;
+    margin-bottom: 22px;
 }
 
+div.btn-pergunta{
+    width: 150px;
+    height: 40px;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+}
 
 aside.menu-right {
     width: 167px;
